@@ -831,3 +831,30 @@ pre {
     font-size: 1.8em;
   }
 }
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 60px 0;
+  color: #c3160f;
+  background: #000;
+}
+@media screen and (min-width: 1520px) {
+  .footer {
+    padding-left: calc((100% - 1280px) / 2);
+    padding-right: calc((100% - 1280px) / 2);
+  }
+}
+@media screen and (min-width: 980px) {
+  .footer {
+    padding-left: calc(60px * 2);
+    padding-right: calc(60px * 2);
+  }
+}
+@media screen and (max-width: 979px) {
+  .footer {
+    padding-left: calc(60px / 2);
+    padding-right: calc(60px / 2);
+    width: auto;
+  }
+}
