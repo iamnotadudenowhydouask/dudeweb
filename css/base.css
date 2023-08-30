@@ -374,6 +374,38 @@ pre {
     margin-top: calc(60px);
   }
 }
+.airdrop {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1520px) {
+  .airdrop {
+    padding-left: calc((100% - 1280px) / 2);
+    padding-right: calc((100% - 1280px) / 2);
+  }
+}
+@media screen and (min-width: 980px) {
+  .airdrop {
+    padding-left: calc(60px * 2);
+    padding-right: calc(60px * 2);
+  }
+}
+@media screen and (max-width: 979px) {
+  .airdrop {
+    padding-left: calc(60px / 2);
+    padding-right: calc(60px / 2);
+    width: auto;
+  }
+}
+.airdrop h2 {
+  font-size: 3em;
+}
+.airdrop p {
+  color: #fff;
+}
 .intro {
   margin-left: auto;
   margin-right: auto;
