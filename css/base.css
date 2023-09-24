@@ -754,8 +754,9 @@ pre {
 .howtobuy-swap {
   margin-left: calc(60px / 2);
   margin-right: calc(60px / 2);
-  background: #F1DDDE;
-  border-radius: 20px;
+  background: #fff;
+  border: 2px solid #F1DDDE;
+  border-radius: 15px;
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
@@ -796,25 +797,20 @@ pre {
   overflow: hidden;
   position: relative;
   text-align: center;
-  padding: 1px 2px;
+  margin: 0 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: calc(100% - 60px);
 }
 .howtobuy-swap__comingsoon h3 {
-  position: absolute;
   z-index: 100;
-  color: #F1DDDE;
+  color: #D5131B;
   font-size: 3em;
-  rotate: -45deg;
 }
-.howtobuy-swap__comingsoon img {
-  margin: -2px -2px -3px -2px;
-  border-radius: 20px;
-  display: block;
-  opacity: 0.6;
-  max-width: 90%;
+.howtobuy-swap__comingsoon iframe {
+  width: 100%;
 }
 .graphcol {
   min-height: 580px;
